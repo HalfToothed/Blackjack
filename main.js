@@ -47,6 +47,7 @@ function renderGame(){
     else if(sum > 21){
         message ="Game over";   
         isAlive = false;
+        location.reload();
     }
 
     sumText.textContent = "Sum: "+sum ;
